@@ -1,0 +1,24 @@
+{
+  "name": "libeauty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss:Front-end/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smmkz/Li-Beauty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smmkz/Li-Beauty/issues"
+  },
+  "homepage": "https://github.com/Smmkz/Li-Beauty#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
