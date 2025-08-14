@@ -1,0 +1,6 @@
+// Responsivo 
+@mixin responsive($large) {
+  @media (max-width: $large) {
+    @content;
+  }
+}
