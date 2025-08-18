@@ -68,7 +68,7 @@ h2 {
 .wave-group .bar {
   position: relative;
   display: block;
-  width: 200px;
+  width: 100%;
 }
 
 .wave-group .bar:before,.wave-group .bar:after {
@@ -100,6 +100,31 @@ h2 {
   content: " ";
   display: inline-block;
   width: 6px; 
+}
+
+/* Senha */ 
+.senha-container {
+  position: relative;
+}
+
+/* Icone de olho */
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+.eye-icon:hover {
+  transform: translateY(-50%) scale(1.1);
 }
 
 /* Botão */
